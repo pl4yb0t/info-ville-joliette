@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 1px;
+    text-align: center;
+    }
+   
+h1{
+    margin: auto;
+    background-color: #1D3557;
+    width: 30%;
+    border-radius: 7px; 
+}
+h2{
+    background-color: #457B9D;
+    width: 60%;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 7px;
+    
+}    
+
+.activity-img {
+    width: 100px;
+    height: 80px;
+    padding: 30px;
+    border-radius: 50%;
+}
+.top-header{
+     background-image: url("images/flottante.jpg");
+    background-size: cover; 
+    padding: 100px 0 275px;
+    color: white;
+    margin-bottom: 0;
+    
+}
+.section-activiter{
+    background-color: #A8DADC;
+    padding: 10px 0 40px;
+     
+}
+.activity-box{
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.activity-box:hover{
+    box-shadow: 4px 4px 8px #457B9D;
+    text-shadow: 4px 4px 8px #457B9D;
+    text-decoration: underline;
+    
+    
+}
+.activiter{
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: space-around;
+  
+
+}
+p{
+   text-align: center;
+   margin: 0 35px; 
+}
+.guide-sec{
+    background-color: #495579;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    border-radius: 7px;
+    border-bottom: solid 8px #1D3557;
+    height: 200px;
+    color: #FFFBEB;
+    padding: 10px;
+     }
+.guide-sec:hover{
+    box-shadow: 4px 4px 6px black;
+    text-shadow: 4px 4px 6px #282A3A;
+}
+.guide-img{
+    background-image: url("images/moi1.jpg");
+    background-size: cover;
+    width: 350px;
+    height: 150px;
+    
+}
+.guide-img:hover{
+    background-image: url("images/shades.gif");
+    
+}
